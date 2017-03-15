@@ -33,5 +33,6 @@ export default {
 		height: 8rem;
 		border-top:1px solid gray;
 		padding-top: 3rem;
+    background-color: white;
 	}
 </style>

@@ -5,8 +5,8 @@
     		<img src="../assets/logo.png" alt="" width="80" height="80">
     	</div>
     	<div class="top_center">
-    		<span class="center_btn btn_active">消息</span>
-    		<span class="center_btn">电话</span>
+    		<span class="center_btn">消息</span>
+    		<span>电话</span>
     	</div>
     	<div class="top_right">+</div>
     </div>
@@ -43,7 +43,7 @@ export default {
 
 <style>
 	.home {
-		font-size: 3rem;
+		font-size: 3.5rem;
 	}
 	.home_top {
 		display: flex;
@@ -57,30 +57,24 @@ export default {
 		border-radius: 50%;
 		margin-top: 0.5rem;
 	}
-	.top_center {
-		background: white;
-	}
-	.center_btn {
-		display: inline-block;
-		padding:5px 25px;
-		border:1px solid ;
-		height: 89%;
-		background-color: #3C8DC4;
-	}
-	.btn_active {
-		background: white;
-		color:blue;
-		border:none;
-	}
 	.home_search {
 		margin-top: 1rem;
 		text-align: center;
 		width: 100%;
 	}
+	.top_center {
+		line-height: 8rem;
+	}
+	.center_btn {
+		padding:8px 20px;
+		background-color: white;
+		color:#3C8DC4;
+	}
 	.search_btn {
 		width: 90%;
 		margin: 0 auto;
 		background: #E5F0F7;
+		padding:0.5rem;
 	}
 	.home_list li {
 		display: flex;
@@ -101,5 +95,8 @@ export default {
 		right: 3rem;
 		font-size: 2rem;
 		top:3rem;
+	}
+	.top_right {
+		font-size: 6rem;
 	}
 </style>
